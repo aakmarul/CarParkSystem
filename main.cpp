@@ -13,6 +13,8 @@ int main()
     CarParkSystem m_carParkSystem;
 
     m_carParkSystem.initialize();
+    m_carParkSystem.getCarLicencePlate();
+    m_carParkSystem.getUserOperationInput();
 
     
 

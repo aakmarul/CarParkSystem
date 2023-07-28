@@ -11,6 +11,10 @@ class CarParkSystem
         virtual ~CarParkSystem();
 
         void initialize();
+ 
+        void getCarLicencePlate();
+
+        void getUserOperationInput();
 
     protected:
 

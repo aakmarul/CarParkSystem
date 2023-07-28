@@ -9,3 +9,8 @@ WelcomeScreen::~WelcomeScreen()
 {
     //dtor
 }
+
+void WelcomeScreen::printOperationInfoMessages()
+{
+    
+}
