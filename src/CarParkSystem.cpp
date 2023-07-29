@@ -18,12 +18,12 @@ void CarParkSystem::initialize()
 void CarParkSystem::getCarLicencePlate()
 {
     m_welcome->getCarLicencePlate();
-    std::cout<<"Bu: "<<m_welcome->m_licencePlate;
+    std::cout<<"Bu: "<<m_welcome->m_licencePlate<<std::endl;
 }
 
 void CarParkSystem::getUserOperationInput()
 {
     m_welcome->getUserOperationInput();
-    std::cout<<"Bu: "<<m_welcome->m_userInput;
+    std::cout<<"Bu: "<<m_welcome->m_userInput<<std::endl;
 }
 

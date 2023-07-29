@@ -19,10 +19,11 @@ void ConsoleWelcomeScreen::InitializeWelcomeScreen()
 void ConsoleWelcomeScreen::getCarLicencePlate()
 {
     getline(cin, m_licencePlate);
+    
 }
 
 void ConsoleWelcomeScreen::getUserOperationInput()
 {
-    cout<<printOperationInfoMessages<<std::endl;
+    printOperationInfoMessages();
     getline(cin, m_userInput);
 }
