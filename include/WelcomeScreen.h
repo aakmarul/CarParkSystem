@@ -16,6 +16,11 @@ class WelcomeScreen
 
         virtual void getUserOperationInput() = 0;
 
+        std::string getUserInput()
+        {
+            return m_userInput;
+        }
+
         std::string m_licencePlate;
 
         std::string m_userInput;

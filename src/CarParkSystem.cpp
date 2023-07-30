@@ -3,6 +3,7 @@
 CarParkSystem::CarParkSystem()
 {
     m_welcome = new ConsoleWelcomeScreen(); //TODO: Burada factory kullanarak tipine göre bir welcome creator kullanılarak seçim yapılabilir
+    m_task = new ConsoleTaskExecutor();
 }
 
 CarParkSystem::~CarParkSystem()
@@ -18,12 +19,26 @@ void CarParkSystem::initialize()
 void CarParkSystem::getCarLicencePlate()
 {
     m_welcome->getCarLicencePlate();
-    std::cout<<"Bu: "<<m_welcome->m_licencePlate<<std::endl;
 }
 
 void CarParkSystem::getUserOperationInput()
 {
     m_welcome->getUserOperationInput();
     std::cout<<"Bu: "<<m_welcome->m_userInput<<std::endl;
+}
+
+std::string CarParkSystem::getUserInput()
+{
+    return m_welcome->getUserInput();
+}
+
+void CarParkSystem::showMap()
+{
+    m_task->showCarParkMap();
+}
+
+void CarParkSystem::showParkStatistics()
+{
+    m_task->showStatistics();
 }
 
