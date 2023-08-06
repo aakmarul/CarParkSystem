@@ -1,11 +1,29 @@
 #include <iostream>
 #include "ConsoleWelcomeScreen.h"
 #include "CarParkSystem.h"
+#include "graphics.h"
 
 using namespace std;
 
 int main()
 {
+    /*
+    int gd = DETECT, gm;
+    initgraph(&gd, &gm, "");
+
+    circle(250,200, 50);
+    */
+
+/*
+    initwindow(900,600);
+
+    bgiout <<"Hello world!"<<endl;
+
+    bgiout<<42<<endl;
+        circle(250,200, 50);
+
+    outstream();*/
+
     cout << "Hello world!" << endl;
 
     //TODO: Atfer write a welcome screen factory. It may be needed.
@@ -31,7 +49,7 @@ int main()
     {
 
     }
-    
+
 
     return 0;
 }

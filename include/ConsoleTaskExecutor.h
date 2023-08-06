@@ -3,6 +3,9 @@
 
 #include "Task.h"
 #include <iostream>
+#include "graphics.h"
+
+using namespace std;
 
 class ConsoleTaskExecutor : public Task
 {
