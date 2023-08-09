@@ -17,6 +17,10 @@ class ConsoleTaskExecutor : public Task
 
         virtual void showStatistics();
 
+        void drawLines();
+
+        void drawParkSensors();
+
     protected:
 
     private:
