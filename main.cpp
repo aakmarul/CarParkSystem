@@ -1,7 +1,6 @@
 #include <iostream>
 #include "ConsoleWelcomeScreen.h"
 #include "CarParkSystem.h"
-#include "graphics.h"
 
 using namespace std;
 

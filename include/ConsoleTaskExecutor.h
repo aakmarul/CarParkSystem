@@ -21,6 +21,8 @@ class ConsoleTaskExecutor : public Task
 
         void drawParkSensors();
 
+        void drawParkAreas();
+
     protected:
 
     private:
