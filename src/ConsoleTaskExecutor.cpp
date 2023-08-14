@@ -20,19 +20,57 @@ void ConsoleTaskExecutor::drawLines()
 
 void ConsoleTaskExecutor::drawParkSensors()
 {
-    setfillstyle(SOLID_FILL, RED);
+    setfillstyle(SOLID_FILL, GREEN);
     circle(172,115,5);
     floodfill(172,115,WHITE);
+    bgiout<<"1"<<endl;
+    outstreamxy(170,249);
+    setfillstyle(SOLID_FILL, GREEN);
     circle(311,115,5);
+    floodfill(311,115,WHITE);
+    bgiout<<"2"<<endl;
+    outstreamxy(311,249);
+    setfillstyle(SOLID_FILL, GREEN);
     circle(450,115,5);
+    floodfill(450,115,WHITE);
+    bgiout<<"3"<<endl;
+    outstreamxy(450,249);
+    setfillstyle(SOLID_FILL, GREEN);
     circle(589,115,5);
+    floodfill(589,115,WHITE);
+    bgiout<<"4"<<endl;
+    outstreamxy(589,249);
+    setfillstyle(SOLID_FILL, GREEN);
     circle(728,115,5);
+    floodfill(728,115,WHITE);
+    bgiout<<"5"<<endl;
+    outstreamxy(728,249);
 
+    setfillstyle(SOLID_FILL, GREEN);
     circle(172,335,5);
+    floodfill(172,335,WHITE);
+    bgiout<<6<<endl;
+    outstreamxy(170,469);
+    setfillstyle(SOLID_FILL, GREEN);
     circle(311,335,5);
+    floodfill(311,335,WHITE);
+    bgiout<<"7"<<endl;
+    outstreamxy(311,469);
+    setfillstyle(SOLID_FILL, GREEN);
     circle(450,335,5);
+    floodfill(450,335,WHITE);
+    bgiout<<"8"<<endl;
+    outstreamxy(450,469);
+    setfillstyle(SOLID_FILL, GREEN);
     circle(589,335,5);
+    floodfill(589,335,WHITE);
+    bgiout<<"9"<<endl;
+    outstreamxy(589,469);
+    setfillstyle(SOLID_FILL, GREEN);
     circle(728,335,5);
+    floodfill(728,335,WHITE);
+    bgiout<<"10"<<endl;
+    outstreamxy(728,469);
 }
 
 void ConsoleTaskExecutor::drawParkAreas()
